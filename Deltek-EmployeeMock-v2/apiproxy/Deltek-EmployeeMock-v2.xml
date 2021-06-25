@@ -1,0 +1,15 @@
+<APIProxy revision="2" name="Deltek-EmployeeMock-v2">
+    <DisplayName></DisplayName>
+    <Description>This API Proxy is to show the mock response</Description>
+    <CreatedAt>1624606151493</CreatedAt>
+    <LastModifiedAt>1624606151493</LastModifiedAt>
+    <BasePaths>/v8/employee</BasePaths>
+    <Policies>
+        <Policy>verify-oauth-v2-access-token</Policy>
+        <Policy>remove-header-authorization</Policy>
+        <Policy>AM-mockRes1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+</APIProxy>
